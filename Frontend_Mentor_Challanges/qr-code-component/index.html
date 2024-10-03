@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{ margin: 0; padding: 0;font-family: "Outfit", sans-serif;}
+    .container { background-color:#D5E1EF; width: 100vw; height: 100vh; max-width: 1440px; min-width: 375px;display:flex; justify-content: center; align-items: center;}
+    .card { display:flex; flex-direction:column; width:320px; margin-bottom:40px;border-radius:20px; background-color: white;} 
+    .card_info{ margin:16px; }
+    #image-qr-code{ border-radius: 10px; width: 100%; object-fit: cover;}
+    #heading{ font-weight: 700; 
+              font-size: 1.375rem; /* 22px */
+              line-height: 1.2; /* 120% */
+              letter-spacing: 0rem; /* 0px */
+              color: #1F314F;
+              text-align: center;
+              padding: 0 10px; 
+            }
+    #text{  font-weight: 500;
+            font-size: 0.9375rem; /* 15px */
+            line-height: 1.4; /* 140% */
+            letter-spacing: 0.0125rem; /* 0.2px */
+            color: #68778D;
+            text-align: center;
+            padding: 0 18px;   
+        }
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="card">
+        <div class="card_info">
+          <img src="\images\image-qr-code.png" id="image-qr-code">
+          <h1 id="heading">Improve your front-end skills by building projects</h1>
+          <p id="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>    
+    </div>
+</body>
+</html>
